@@ -207,7 +207,7 @@ Resources:
             - ECR_REGISTRY: !Sub ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com
               APP_REPO_NAME: clarusway-repo/phonebook-app
               GITHUB_REPO: https://github.com/sibelozen/project-203.git
-              GIT_FILE_URL: https://raw.githubusercontent.com/callahan-cw/project-203/master/
+              GIT_FILE_URL: https://raw.githubusercontent.com/sibelozen/project-203/main/
 
   DockerManager2:
     Type: "AWS::EC2::Instance"
